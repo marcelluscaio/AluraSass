@@ -1,0 +1,31 @@
+html, body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  padding: 1em;
+}
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #495371;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid;
+}
+
+.banner {
+  background: url("../../imagens/banner.jpeg") 27% no-repeat;
+  background-size: cover;
+  background-color: #333333;
+  background-blend-mode: screen;
+  height: 55vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */
