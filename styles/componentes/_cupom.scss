@@ -9,7 +9,36 @@
       h2{
          margin: 1em;
          font-size: $tamanho-texto;
+      }      
+   }
+   .input{
+      margin: 0 auto;
+      width: 100%;
+      border-radius: 5% / 50%;
+      border: 2px solid #000;
+      background: #fff;
+      &:hover, &:focus-within{
+         box-shadow: 3px 3px 10px #666666;
+         outline: none;
       }
-      
+      input{
+         border-radius: 5% / 50%;
+         border: none;
+         outline: none;
+         text-align: center;
+      }
+   }
+   button{
+      text-transform: uppercase;
+      background-color: $cor-primaria;
+      color: $cor-terciaria;
+      margin: 1em auto;
+      outline: none;
+      border: none;
+      padding: 0.5em 1em;
+      border-radius: 1em;
+      &:hover{
+         filter: brightness(1.3);
+      }
    }
 }
